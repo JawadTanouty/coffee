@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: #f5f0e6;
+  color: #333;
+}
+header {
+  background: url('images/latteart.png') center/cover no-repeat;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+header nav {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+header nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+header button {
+  padding: 10px 25px;
+  background: #c49b63;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+section.icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+}
+footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.beans {
+  text-align: center;
+}
+
+.avis {
+  text-align: center;
+}
+
+.hands {
+  transform: rotate(-90deg);
+  position: absolute;
+  border-left-width: 12px;
+  border-left-style: solid;
+  padding-left: 211px;
+  margin-left: -1201px;
+}
+
+
+
+.coffees2 {
+  display: flex;
+  gap: 20px; 
+  justify-content: center;
+}
+
+.coffees {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.coffee-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  background-color: #2e1f14;
+  color: #e6d8c3;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 150px;
+  margin: 10px;
+}
+
+.footer-section h2,
+.footer-section h3 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section a {
+  color: #e6d8c3;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-media .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+  transition: 0.3s;
+}
+
+.social-media img:hover {
+  filter: brightness(0.8) invert(0.9);
+}
