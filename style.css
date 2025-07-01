@@ -57,10 +57,6 @@ footer {
   margin-top: 20px;
 }
 
-.beans {
-  text-align: center;
-}
-
 .avis {
   text-align: center;
 }
@@ -150,3 +146,4 @@ footer {
 .social-media img:hover {
   filter: brightness(0.8) invert(0.9);
 }
+
